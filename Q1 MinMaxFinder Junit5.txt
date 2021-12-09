@@ -1,0 +1,23 @@
+//logic 
+//public class MinMaxFinder{
+//	class findMinMax(){
+//	int[] num={53,7,3,34,34,53};
+//	Array.sort(num);
+//	sysout("");
+//	
+//}
+//}
+
+package Junit5;
+import java.util.Arrays;
+
+public class MinMaxFinder {
+	public static void main(String[] args) {
+		int[] num= {53,7,3,34,34,53};
+		Arrays.sort(num);
+		System.out.println("Zeroth index min number is  "+num[0]);
+		System.out.println("one th index of max number is  "+ num[num.length-1]);
+		
+	}
+	
+}

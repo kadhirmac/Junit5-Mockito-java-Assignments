@@ -1,0 +1,17 @@
+public class Bank Account{
+private int balance;	
+
+}
+public bankaccount()
+{
+	int balance=20000;
+}
+
+Class Withdrawn(){
+	
+	if(get.amount>balance)	
+	{
+	@InsufficientFundException;
+	throw new InsufficientException("amount exceeds balance")
+
+}
